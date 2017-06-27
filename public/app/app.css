@@ -1,8 +1,14 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
-header , footer {
+.navbar {
+  margin-bottom: 0px;
+  padding: 0 10px 0 10px;
+}
+.navbar-brand {
+    padding: 0px;
+}
+footer {
     background-color: #333;
     color: #ddd;
     padding : 20px;
