@@ -13,6 +13,8 @@ Table Of Content:
             - Using visible/hidden to show/hide the DOM Elements on specific device (ex: visible-md on tablet)
       + Content Reflow Pattern:
             - Using @media(max-width : 767px) { } to declare some element's css.
+      + Same-Sized Columns:
+            - Using minimit css to handle the problem of different sized columns.
 2. Responsive Navigation
 3. Responsive Image And Video
 4. Scrolling Feature
