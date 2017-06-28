@@ -23,6 +23,8 @@ Table Of Content:
             + Uses Css TRANSITION property for animations.
             + https://caniuse.com/ to verify brower supported
 3. Responsive Image And Video
+      + Use window.innerHeight to set img's full height
+      + Use 'background-size : cover' to cover the background screen. 
 4. Scrolling Feature
 5. Animated Page Elements
 
