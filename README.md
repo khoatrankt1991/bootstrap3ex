@@ -16,6 +16,12 @@ Table Of Content:
       + Same-Sized Columns:
             - Using minimit css to handle the problem of different sized columns.
 2. Responsive Navigation
+      + navbar-inverse navbar-fixed-top to styling css and fixed menu on top.
+      + Animate the Nav Bar with 'animatedHeader lib' 
+            + add class name 'cbp-af-header' in navbar 
+            + cbp-af-header-shrink to shrink the nav 
+            + Uses Css TRANSITION property for animations.
+            + https://caniuse.com/ to verify brower supported
 3. Responsive Image And Video
 4. Scrolling Feature
 5. Animated Page Elements

@@ -1,9 +1,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    padding-top: 70px;
 }
 .navbar {
   margin-bottom: 0px;
-  padding: 0 10px 0 10px;
+  padding: 10px 10px 10px 10px;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
 }
 .navbar-brand {
     padding: 0px;
@@ -19,7 +22,10 @@ aside {
     text-align: center;
     padding-top: 40px;
 }
-
+.cbp-af-header-shrink {
+    padding: 0 10px 0 10px;
+    opacity: 0.9;
+}
 .range-list {
     padding-bottom: 40px;
     padding-top: 40px;
