@@ -17,14 +17,21 @@ Table Of Content:
             - Using minimit css to handle the problem of different sized columns.
 2. Responsive Navigation
       + navbar-inverse navbar-fixed-top to styling css and fixed menu on top.
-      + Animate the Nav Bar with 'animatedHeader lib' 
+      + Animate the Nav Bar with 'animatedHeader LIBRARY' 
+            + LIBRARY: 'Animated Header'
             + add class name 'cbp-af-header' in navbar 
             + cbp-af-header-shrink to shrink the nav 
             + Uses Css TRANSITION property for animations.
             + https://caniuse.com/ to verify brower supported
 3. Responsive Image And Video
-      + Use window.innerHeight to set img's full height
-      + Use 'background-size : cover' to cover the background screen. 
+      + Full Screen Background Image:
+            + Use window.innerHeight to set img's full height
+            + Use 'background-size : cover' to cover the background screen.
+      + Full Screen Fixed Image
+            + Use 'background-attachment: fixed' to fixed the background image when we scroll down ( Use 'scroll' to resume scroll image)
+      + Full Screen Background Video:
+            + LIBRARY: 'Form Stone Wall Paper'
+            
 4. Scrolling Feature
 5. Animated Page Elements
 
