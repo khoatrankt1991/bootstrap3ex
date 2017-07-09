@@ -33,5 +33,17 @@ Table Of Content:
             + LIBRARY: 'Form Stone Wall Paper'
             
 4. Scrolling Feature
+      + Using "ScrollSpy" of Bootstrap and Jquery Easing Plugin
+            Take a look on Bootstrap/Javascript/ScrollSpy
+      + Smooth Scrolling: 
+            Using: http://gsgd.co.uk/sandbox/jquery/easing/
+            $('nav a').bind('click', function(){
+                $('html, body').stop().animate({
+                    scrollTop: $($(this).attr('href')).offset().top
+                }, 1500, 'easeInOutExpo');
+                event.preventDefault();
+            })
+
+
 5. Animated Page Elements
 
