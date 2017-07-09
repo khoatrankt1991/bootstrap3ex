@@ -1,4 +1,6 @@
 body {
+    /*scroll spy*/
+    position: relative;
     font-family: 'Open Sans', sans-serif;
     /*padding-top: 70px;*/
 }
@@ -15,8 +17,17 @@ body {
     background-size: cover;
     background-position: center;
 }
+.content-filler {
+    min-height: 300px;
+    background-color: red;
+}
 .fixed-attachment {
     background-attachment: fixed;
+}
+@media (max-width: 1024px) {
+    .fixed-attachment {
+        background-attachment: scroll;
+    }
 }
 footer {
     background-color: #333;
